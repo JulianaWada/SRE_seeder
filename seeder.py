@@ -40,7 +40,7 @@ AVATAR_FILE = os.getenv('AVATAR_FILE', False)
 S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME', 'legacy1-s3')
 
 # S3 connection details
-S3_ENDPOINT_URL = os.getenv('S3_ENDPOINT_URL', 'https://bucket.vpce-08328db7d34630f7c.s3.us-east-1.vpce.amazonaws.com')
+S3_ENDPOINT_URL = os.getenv('S3_ENDPOINT_URL', '')
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID', '')
 AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY', '')
 AWS_DEFAULT_REGION = os.getenv('AWS_DEFAULT_REGION', 'us-east-1')
